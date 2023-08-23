@@ -1,0 +1,10 @@
+<!-- Inclue Header -->
+<%- include("partials/header.ejs") %>
+
+<!-- Include Body -->
+<% if(fileName === "home") { %> <%- include('home.ejs') %> <% } else if(fileName
+=== "about") { %> <%- include('about.ejs') %> <% } else if(fileName ===
+"contact") { %> <%- include('contact.ejs') %> <% } %>
+
+<!-- Include Footer -->
+<%- include("partials/footer.ejs") %>
