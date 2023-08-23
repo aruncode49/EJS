@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passing Data to Server</title>
+  </head>
+  <body>
+    <h1><%= heading %></h1>
+
+    <!-- Form -->
+    <form action="/submit" method="POST">
+      <label for="fName">Enter First Name: </label>
+      <input type="text" name="fName" placeholder="First Name" />
+      <label for="lName">Enter Last Name: </label>
+      <input type="text" name="lName" placeholder="Last Name" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
